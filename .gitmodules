@@ -13,3 +13,6 @@
 [submodule "Dark_Channel_Prior_Dehazing_Project"]
 	path = Dark_Channel_Prior_Dehazing_Project
 	url = https://github.com/YanRabe/Dark_Channel_Prior_Dehazing_Project
+[submodule "Kmeans_Meanshift_Segmentation"]
+	path = Kmeans_Meanshift_Segmentation
+	url = https://github.com/YanRabe/Kmeans_Meanshift_Segmentation_Comparison
