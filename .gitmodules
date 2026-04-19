@@ -4,3 +4,6 @@
 [submodule "RatToTam_Compiler"]
 	path = RatToTam_Compiler
 	url = https://github.com/YanRabe/RatToTam_Compiler
+[submodule "Channel_Coding_Project"]
+	path = Channel_Coding_Project
+	url = https://github.com/YanRabe/Channel_Coding_Project
