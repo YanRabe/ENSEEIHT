@@ -7,3 +7,6 @@
 [submodule "Channel_Coding_Project"]
 	path = Channel_Coding_Project
 	url = https://github.com/YanRabe/Channel_Coding_Project
+[submodule "RobotArm_OpenGL_Project"]
+	path = RobotArm_OpenGL_Project
+	url = https://github.com/YanRabe/Robot_Arm_OpenGL_Project
