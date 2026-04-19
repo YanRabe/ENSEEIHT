@@ -10,3 +10,6 @@
 [submodule "RobotArm_OpenGL_Project"]
 	path = RobotArm_OpenGL_Project
 	url = https://github.com/YanRabe/Robot_Arm_OpenGL_Project
+[submodule "Dark_Channel_Prior_Dehazing_Project"]
+	path = Dark_Channel_Prior_Dehazing_Project
+	url = https://github.com/YanRabe/Dark_Channel_Prior_Dehazing_Project
