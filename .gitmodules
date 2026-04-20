@@ -16,3 +16,18 @@
 [submodule "Kmeans_Meanshift_Segmentation"]
 	path = Kmeans_Meanshift_Segmentation
 	url = https://github.com/YanRabe/Kmeans_Meanshift_Segmentation_Comparison
+[submodule "MeshReconstruction_Project"]
+	path = MeshReconstruction_Project
+	url = https://github.com/YanRabe/MeshReconstruction_Project.git
+[submodule "Minishell_Project"]
+	path = Minishell_Project
+	url = https://github.com/YanRabe/Minishell_Project.git
+[submodule "Huffman_CompDecomp_Project"]
+	path = Huffman_CompDecomp_Project
+	url = https://github.com/YanRabe/Huffman_CompDecomp_Project.git
+[submodule "OptiProblem_Resolution_Project"]
+	path = OptiProblem_Resolution_Project
+	url = https://github.com/YanRabe/OptiProblem_Resolution_Project.git
+[submodule "Subspace_Iteration_Image_Compression_Project"]
+	path = Subspace_Iteration_Image_Compression_Project
+	url = https://github.com/YanRabe/Subspace_Iteration_Image_Compression_Project.git
