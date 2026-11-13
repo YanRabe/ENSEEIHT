@@ -40,3 +40,6 @@
 [submodule "FishSchool"]
 	path = FishSchool
 	url = https://github.com/YanRabe/FishSchool.git
+[submodule "3A/CSI-project"]
+	path = 3A/CSI-project
+	url = https://github.com/cyrianR/CSI-project.git
