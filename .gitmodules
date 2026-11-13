@@ -37,3 +37,6 @@
 [submodule "Compression_Techniques"]
 	path = Compression_Techniques
 	url = https://github.com/YanRabe/Compression_Techniques.git
+[submodule "FishSchool"]
+	path = FishSchool
+	url = https://github.com/YanRabe/FishSchool.git
