@@ -1,0 +1,6 @@
+main {
+  int * p = (new int);
+  (*p) = 42;
+  int * q = null;
+  q = p;
+}

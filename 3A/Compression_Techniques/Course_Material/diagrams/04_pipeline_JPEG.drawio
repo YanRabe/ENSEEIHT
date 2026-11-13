@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1220" pageHeight="440" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="t" value="Pipeline JPEG (avec pertes) — encodeur et décodeur" style="text;html=1;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="250" y="10" width="700" height="30" as="geometry"/></mxCell>
+<mxCell id="enc_l" value="&lt;b&gt;ENCODAGE&lt;/b&gt;" style="text;html=1;fontSize=14;fontStyle=1;fontColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="20" y="55" width="120" height="30" as="geometry"/></mxCell>
+<mxCell id="rgb" value="&lt;b&gt;Image RVB&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;arcSize=12;shadow=1;fontSize=13;" vertex="1" parent="1"><mxGeometry x="20" y="90" width="110" height="60" as="geometry"/></mxCell>
+<mxCell id="ycbcr" value="&lt;b&gt;RVB → YCbCr&lt;/b&gt;&lt;br&gt;décorrélation canaux&lt;br&gt;+ décimation Cb/Cr" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="170" y="80" width="170" height="80" as="geometry"/></mxCell>
+<mxCell id="dct" value="&lt;b&gt;DCT 2D&lt;/b&gt;&lt;br&gt;par blocs 8×8&lt;br&gt;énergie → basses fréq." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="380" y="80" width="170" height="80" as="geometry"/></mxCell>
+<mxCell id="quant" value="&lt;b&gt;Quantification&lt;/b&gt;&lt;br&gt;bloc / T(FQ) puis arrondi&lt;br&gt;étape IRRÉVERSIBLE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="590" y="80" width="180" height="80" as="geometry"/></mxCell>
+<mxCell id="zig" value="&lt;b&gt;AC/DC + zigzag&lt;/b&gt;&lt;br&gt;DC = coeff [1,1]&lt;br&gt;AC en zigzag + EOB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="810" y="80" width="170" height="80" as="geometry"/></mxCell>
+<mxCell id="ent" value="&lt;b&gt;Encodage&lt;/b&gt;&lt;br&gt;RLE + Huffman&lt;br&gt;(entropique)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1020" y="80" width="150" height="80" as="geometry"/></mxCell>
+<mxCell id="j1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="rgb" target="ycbcr"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="j2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="ycbcr" target="dct"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="j3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="dct" target="quant"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="j4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="quant" target="zig"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="j5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="zig" target="ent"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="dec_l" value="&lt;b&gt;DÉCODAGE&lt;/b&gt;" style="text;html=1;fontSize=14;fontStyle=1;fontColor=#82b366;" vertex="1" parent="1"><mxGeometry x="20" y="240" width="120" height="30" as="geometry"/></mxCell>
+<mxCell id="entd" value="&lt;b&gt;Décodage&lt;/b&gt;&lt;br&gt;entropique" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="1020" y="270" width="150" height="70" as="geometry"/></mxCell>
+<mxCell id="zigd" value="&lt;b&gt;Zigzag inverse&lt;/b&gt;&lt;br&gt;reconstruction blocs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="810" y="270" width="170" height="70" as="geometry"/></mxCell>
+<mxCell id="qid" value="&lt;b&gt;Quantif. inverse&lt;/b&gt;&lt;br&gt;× T(FQ)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="590" y="270" width="180" height="70" as="geometry"/></mxCell>
+<mxCell id="idct" value="&lt;b&gt;IDCT 2D&lt;/b&gt;&lt;br&gt;par blocs 8×8" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="380" y="270" width="170" height="70" as="geometry"/></mxCell>
+<mxCell id="rgb2" value="&lt;b&gt;YCbCr → RVB&lt;/b&gt;&lt;br&gt;image reconstruite" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;arcSize=12;shadow=1;fontSize=13;" vertex="1" parent="1"><mxGeometry x="170" y="270" width="170" height="70" as="geometry"/></mxCell>
+<mxCell id="d1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="entd" target="zigd"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="d2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="zigd" target="qid"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="d3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="qid" target="idct"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="d4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="idct" target="rgb2"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="n1" value="Artefacts à faible qualité : effet pixelisé (blocs), base de cosinus visible, fausses couleurs — mesurés par le PSNR" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="250" y="380" width="800" height="30" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,8 @@
+void hello(){
+    print 123;
+    return;
+}
+
+main {
+    hello();
+}

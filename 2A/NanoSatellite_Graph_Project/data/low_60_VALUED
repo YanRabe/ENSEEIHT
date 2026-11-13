@@ -1,0 +1,7 @@
+[ Analyse (graphe pondéré) pour la config : densité faible - 60.0km ]
+Degré moyen : 29.42
+Clustering moyen : 0.6723798097803951
+Nombre de cliques (maximales) : 301
+Nombre de composantes connexes : 4
+Ordre des composantes connexes : [96, 2, 1, 1]
+Nombre de plus courts chemins: 4561

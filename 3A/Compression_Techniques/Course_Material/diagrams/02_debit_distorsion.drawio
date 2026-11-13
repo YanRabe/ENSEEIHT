@@ -1,0 +1,20 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="480" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="t" value="Optimisation débit-distorsion" style="text;html=1;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="300" y="10" width="500" height="30" as="geometry"/></mxCell>
+<mxCell id="ax" value="" style="endArrow=classic;html=1;strokeColor=#333333;strokeWidth=2;" edge="1" parent="1"><mxGeometry x="80" y="60" width="10" height="360" as="geometry"/></mxCell>
+<mxCell id="ay" value="" style="endArrow=classic;html=1;strokeColor=#333333;strokeWidth=2;" edge="1" parent="1"><mxGeometry x="80" y="420" width="700" height="10" as="geometry"/></mxCell>
+<mxCell id="yl" value="Bits / symbole" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="10" y="200" width="100" height="30" as="geometry"/></mxCell>
+<mxCell id="xl" value="Distorsion" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="700" y="430" width="100" height="30" as="geometry"/></mxCell>
+<mxCell id="p0" value="&lt;b&gt;H₀&lt;/b&gt;&lt;br&gt;sans perte" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="90" y="80" width="90" height="50" as="geometry"/></mxCell>
+<mxCell id="p1" value="&lt;b&gt;H_P&lt;/b&gt;&lt;br&gt;avec pertes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="400" y="250" width="100" height="50" as="geometry"/></mxCell>
+<mxCell id="cv" value="" style="curved=1;endArrow=none;html=1;strokeColor=#b85450;strokeWidth=3;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="135" y="105" as="sourcePoint"/><mxPoint x="450" y="275" as="targetPoint"/><Array as="points"><mxPoint x="200" y="200"/><mxPoint x="300" y="250"/></Array></mxGeometry></mxCell>
+<mxCell id="n1" value="Compression sans perte : limite = entropie H₀ de la source" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="220" y="90" width="420" height="30" as="geometry"/></mxCell>
+<mxCell id="n2" value="Compression avec pertes : moins de bits (H_P &lt; H₀)&lt;br&gt;mais distorsion &gt; 0" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="520" y="255" width="320" height="50" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

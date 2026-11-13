@@ -1,0 +1,7 @@
+void erreur(){
+    return 12; // Doit être 'return;' uniquement
+}
+
+main {
+    erreur();
+}

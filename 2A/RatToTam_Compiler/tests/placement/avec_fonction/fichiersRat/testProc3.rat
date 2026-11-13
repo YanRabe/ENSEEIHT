@@ -1,0 +1,13 @@
+void check(bool b){
+    if b {
+        int x = 10;
+        print x;
+        return;
+    } else {
+        return;
+    }
+}
+
+main {
+    check(true);
+}

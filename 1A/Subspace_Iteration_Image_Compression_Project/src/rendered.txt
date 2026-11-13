@@ -1,0 +1,28 @@
+---
+title: "Tableau de comparaison power_v11 et eig"
+author: Yan Rabefaniraka
+date: 25 Février 2025
+geometry: margin=2cm
+output: pdf_document
+---
+
+# Tableau
+
+| Matrix Size | Matrix Type | power_v11 (s) | eig (s) |
+|-------------|-------------|---------------|---------|
+| 100x100     | 1           |     7e-2      |  2e-2   |
+| 100x100     | 2           |     1e-2      |  1e-2   |
+| 100x100     | 3           |               |         |
+| 100x100     | 4           |               |         |
+| 500x500     | 1           |               |         |
+| 500x500     | 2           |               |         |
+| 500x500     | 3           |               |         |
+| 500x500     | 4           |               |         |
+| 1000x1000   | 1           |               |         |
+| 1000x1000   | 2           |               |         |
+| 1000x1000   | 3           |               |         |
+| 1000x1000   | 4           |               |         |
+| 10000x10000 | 1           |               |         |
+| 10000x10000 | 2           |               |         |
+| 10000x10000 | 3           |               |         |
+| 10000x10000 | 4           |               |         |

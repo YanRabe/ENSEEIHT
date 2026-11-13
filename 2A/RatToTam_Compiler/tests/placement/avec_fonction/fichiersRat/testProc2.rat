@@ -1,0 +1,10 @@
+void complex(int a, int b){
+    int x = 3;
+    int y = 4;
+    print (a+x);
+    return;
+}
+
+main {
+    complex(1, 2);
+}

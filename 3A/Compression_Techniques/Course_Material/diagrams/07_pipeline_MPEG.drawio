@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1150" pageHeight="620" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="t" value="Compression MPEG : estimation de mouvement + résidu" style="text;html=1;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="200" y="10" width="700" height="30" as="geometry"/></mxCell>
+<mxCell id="ic" value="&lt;b&gt;I_Cou&lt;/b&gt;&lt;br&gt;image courante" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;arcSize=12;shadow=1;fontSize=13;" vertex="1" parent="1"><mxGeometry x="40" y="90" width="140" height="70" as="geometry"/></mxCell>
+<mxCell id="ir" value="&lt;b&gt;I_Ref&lt;/b&gt;&lt;br&gt;image de référence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;arcSize=12;shadow=1;fontSize=13;" vertex="1" parent="1"><mxGeometry x="40" y="260" width="140" height="70" as="geometry"/></mxCell>
+<mxCell id="est" value="&lt;b&gt;Estimation du mouvement&lt;/b&gt;&lt;br&gt;macro-blocs 16×16&lt;br&gt;Cross Search Algorithm&lt;br&gt;min EQM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="260" y="150" width="230" height="110" as="geometry"/></mxCell>
+<mxCell id="v" value="&lt;b&gt;v&lt;/b&gt;&lt;br&gt;vecteurs de&lt;br&gt;mouvement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="560" y="165" width="120" height="80" as="geometry"/></mxCell>
+<mxCell id="pred" value="&lt;b&gt;Prédiction&lt;/b&gt;&lt;br&gt;I_Pre(x,y) = I_Ref(x+v_x, y+v_y)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="560" y="300" width="230" height="70" as="geometry"/></mxCell>
+<mxCell id="res" value="&lt;b&gt;I_Res = I_Cou − I_Pre&lt;/b&gt;&lt;br&gt;image résiduelle&lt;br&gt;(beaucoup de zéros)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="300" y="380" width="220" height="80" as="geometry"/></mxCell>
+<mxCell id="jres" value="&lt;b&gt;JPEG&lt;/b&gt;&lt;br&gt;table Résidu (16)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="590" y="390" width="160" height="70" as="geometry"/></mxCell>
+<mxCell id="jir" value="&lt;b&gt;JPEG&lt;/b&gt;&lt;br&gt;table Luminance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="260" y="520" width="160" height="70" as="geometry"/></mxCell>
+<mxCell id="entv" value="&lt;b&gt;Codage entropique&lt;/b&gt;&lt;br&gt;des mouvements v" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="760" y="165" width="180" height="80" as="geometry"/></mxCell>
+<mxCell id="poids" value="&lt;b&gt;Poids.H_MPEG&lt;/b&gt;&lt;br&gt;= Poids.H_JPEG + Poids.MVdr&lt;br&gt;Compression = (1 − H_MPEG/Origine)×100" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontSize=13;" vertex="1" parent="1"><mxGeometry x="790" y="400" width="290" height="80" as="geometry"/></mxCell>
+<mxCell id="m1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="ic" target="est"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="m2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="ir" target="est"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="m3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="est" target="v"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="m4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="v" target="pred"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="m5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="ir" target="pred"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="m6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="ic" target="res"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="m7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="pred" target="res"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="m8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="res" target="jres"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="m9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="ir" target="jir"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="m10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="v" target="entv"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="m11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="jres" target="poids"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="m12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=12;" edge="1" parent="1" source="entv" target="poids"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+<mxCell id="n1" value="L'image de référence est AUSSI compressée en JPEG : le décodeur en a besoin pour reconstruire la prédiction" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="460" y="530" width="600" height="40" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

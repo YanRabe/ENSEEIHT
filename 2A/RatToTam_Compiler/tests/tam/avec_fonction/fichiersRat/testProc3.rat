@@ -1,0 +1,13 @@
+void count(int n){
+    if (n < 6) {
+        print n;
+        count((n + 1));
+        return;
+    } else {
+        return;
+    }
+}
+
+main {
+    count(3);
+}

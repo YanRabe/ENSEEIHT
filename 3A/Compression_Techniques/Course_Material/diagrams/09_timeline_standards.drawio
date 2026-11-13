@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="540" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="t" value="Historique des standards de compression vidéo" style="text;html=1;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="250" y="10" width="700" height="30" as="geometry"/></mxCell>
+<mxCell id="ax" value="" style="endArrow=classic;html=1;strokeColor=#333333;strokeWidth=3;" edge="1" parent="1"><mxGeometry x="40" y="200" width="1420" height="10" as="geometry"/></mxCell>
+<mxCell id="p0" value="&lt;b&gt;1988&lt;/b&gt;&lt;br&gt;&lt;b&gt;H.261&lt;/b&gt;&lt;br&gt;1er standard vidéo par bloc&lt;br&gt;(mouvement + DCT)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1"><mxGeometry x="80" y="60" width="150" height="80" as="geometry"/></mxCell>
+<mxCell id="pl0" value="" style="endArrow=none;html=1;strokeColor=#6c8ebf;strokeWidth=2;dashed=1;" edge="1" parent="1"><mxGeometry x="140" y="140" width="1" height="60" as="geometry"/></mxCell>
+<mxCell id="p1" value="&lt;b&gt;1992&lt;/b&gt;&lt;br&gt;&lt;b&gt;JPEG&lt;/b&gt;&lt;br&gt;standard photo numérique" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1"><mxGeometry x="240" y="250" width="150" height="80" as="geometry"/></mxCell>
+<mxCell id="pl1" value="" style="endArrow=none;html=1;strokeColor=#6c8ebf;strokeWidth=2;dashed=1;" edge="1" parent="1"><mxGeometry x="300" y="210" width="1" height="40" as="geometry"/></mxCell>
+<mxCell id="p2" value="&lt;b&gt;1993&lt;/b&gt;&lt;br&gt;&lt;b&gt;MPEG-1&lt;/b&gt;&lt;br&gt;CD-ROM + MP3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1"><mxGeometry x="280" y="60" width="150" height="80" as="geometry"/></mxCell>
+<mxCell id="pl2" value="" style="endArrow=none;html=1;strokeColor=#6c8ebf;strokeWidth=2;dashed=1;" edge="1" parent="1"><mxGeometry x="340" y="140" width="1" height="60" as="geometry"/></mxCell>
+<mxCell id="p3" value="&lt;b&gt;1995&lt;/b&gt;&lt;br&gt;&lt;b&gt;MPEG-2&lt;/b&gt;&lt;br&gt;DVD, TNT, entrelacé" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1"><mxGeometry x="360" y="250" width="150" height="80" as="geometry"/></mxCell>
+<mxCell id="pl3" value="" style="endArrow=none;html=1;strokeColor=#6c8ebf;strokeWidth=2;dashed=1;" edge="1" parent="1"><mxGeometry x="420" y="210" width="1" height="40" as="geometry"/></mxCell>
+<mxCell id="p4" value="&lt;b&gt;1998&lt;/b&gt;&lt;br&gt;&lt;b&gt;MPEG-4 P2&lt;/b&gt;&lt;br&gt;DivX / Xvid" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1"><mxGeometry x="480" y="60" width="150" height="80" as="geometry"/></mxCell>
+<mxCell id="pl4" value="" style="endArrow=none;html=1;strokeColor=#6c8ebf;strokeWidth=2;dashed=1;" edge="1" parent="1"><mxGeometry x="540" y="140" width="1" height="60" as="geometry"/></mxCell>
+<mxCell id="p5" value="&lt;b&gt;2003&lt;/b&gt;&lt;br&gt;&lt;b&gt;H.264 / AVC&lt;/b&gt;&lt;br&gt;Blu-ray, YouTube, HD" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1"><mxGeometry x="680" y="250" width="150" height="80" as="geometry"/></mxCell>
+<mxCell id="pl5" value="" style="endArrow=none;html=1;strokeColor=#6c8ebf;strokeWidth=2;dashed=1;" edge="1" parent="1"><mxGeometry x="740" y="210" width="1" height="40" as="geometry"/></mxCell>
+<mxCell id="p6" value="&lt;b&gt;2013&lt;/b&gt;&lt;br&gt;&lt;b&gt;H.265 / HEVC&lt;/b&gt;&lt;br&gt;UHD/HDR, −50% débit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1080" y="60" width="150" height="80" as="geometry"/></mxCell>
+<mxCell id="pl6" value="" style="endArrow=none;html=1;strokeColor=#6c8ebf;strokeWidth=2;dashed=1;" edge="1" parent="1"><mxGeometry x="1140" y="140" width="1" height="60" as="geometry"/></mxCell>
+<mxCell id="p7" value="&lt;b&gt;2015&lt;/b&gt;&lt;br&gt;&lt;b&gt;HEIF / HEIC&lt;/b&gt;&lt;br&gt;photo via Intra HEVC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1160" y="250" width="150" height="80" as="geometry"/></mxCell>
+<mxCell id="pl7" value="" style="endArrow=none;html=1;strokeColor=#6c8ebf;strokeWidth=2;dashed=1;" edge="1" parent="1"><mxGeometry x="1220" y="210" width="1" height="40" as="geometry"/></mxCell>
+<mxCell id="p8" value="&lt;b&gt;2020&lt;/b&gt;&lt;br&gt;&lt;b&gt;H.266 / VVC&lt;/b&gt;&lt;br&gt;8K, 360°, VR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1360" y="60" width="150" height="80" as="geometry"/></mxCell>
+<mxCell id="pl8" value="" style="endArrow=none;html=1;strokeColor=#6c8ebf;strokeWidth=2;dashed=1;" edge="1" parent="1"><mxGeometry x="1420" y="140" width="1" height="60" as="geometry"/></mxCell>
+<mxCell id="p9" value="&lt;b&gt;2020&lt;/b&gt;&lt;br&gt;&lt;b&gt;MPEG-5 EVC&lt;/b&gt;&lt;br&gt;double flux web" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1360" y="250" width="150" height="80" as="geometry"/></mxCell>
+<mxCell id="pl9" value="" style="endArrow=none;html=1;strokeColor=#6c8ebf;strokeWidth=2;dashed=1;" edge="1" parent="1"><mxGeometry x="1420" y="210" width="1" height="40" as="geometry"/></mxCell>
+<mxCell id="f0" value="&lt;b&gt;2008&lt;/b&gt;&lt;br&gt;&lt;b&gt;VP8&lt;/b&gt;&lt;br&gt;ouvert, sans redevance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1"><mxGeometry x="880" y="380" width="150" height="80" as="geometry"/></mxCell>
+<mxCell id="fl0" value="" style="endArrow=none;html=1;strokeColor=#82b366;strokeWidth=2;dashed=1;" edge="1" parent="1"><mxGeometry x="940" y="210" width="1" height="170" as="geometry"/></mxCell>
+<mxCell id="f1" value="&lt;b&gt;2010&lt;/b&gt;&lt;br&gt;&lt;b&gt;WebP&lt;/b&gt;&lt;br&gt;image web &gt; JPEG" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1"><mxGeometry x="960" y="380" width="150" height="80" as="geometry"/></mxCell>
+<mxCell id="fl1" value="" style="endArrow=none;html=1;strokeColor=#82b366;strokeWidth=2;dashed=1;" edge="1" parent="1"><mxGeometry x="1020" y="210" width="1" height="170" as="geometry"/></mxCell>
+<mxCell id="f2" value="&lt;b&gt;2013&lt;/b&gt;&lt;br&gt;&lt;b&gt;VP9&lt;/b&gt;&lt;br&gt;libre, YouTube 4K" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1"><mxGeometry x="1080" y="380" width="150" height="80" as="geometry"/></mxCell>
+<mxCell id="fl2" value="" style="endArrow=none;html=1;strokeColor=#82b366;strokeWidth=2;dashed=1;" edge="1" parent="1"><mxGeometry x="1140" y="210" width="1" height="170" as="geometry"/></mxCell>
+<mxCell id="lgp" value="Standards payants (MPEG / ITU-T)" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="60" y="490" width="300" height="30" as="geometry"/></mxCell>
+<mxCell id="lgf" value="Incursions gratuites (Google &amp; Co.)" style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontColor=#666666;" vertex="1" parent="1"><mxGeometry x="380" y="490" width="300" height="30" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

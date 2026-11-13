@@ -1,0 +1,8 @@
+void affiche(int i){
+    print i;
+    return;
+}
+
+main {
+    affiche([1/2]); // Passe un Rat au lieu d'un Int
+}

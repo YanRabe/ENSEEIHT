@@ -1,0 +1,12 @@
+void update(int i, bool b){
+    if b {
+        print (i + 1);
+    } else {
+        print i;
+    }
+    return;
+}
+
+main {
+    update(5, true);
+}

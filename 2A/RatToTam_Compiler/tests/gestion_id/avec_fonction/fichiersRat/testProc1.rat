@@ -1,0 +1,9 @@
+void printDouble(int i){
+    print (i * 2);
+    return;
+}
+
+main {
+    int x = 3;
+    printDouble(x);
+}

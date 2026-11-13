@@ -1,0 +1,9 @@
+void inc(int a){
+    int b = (a + 1);
+    print b;
+    return;
+}
+
+main {
+    inc(1);
+}

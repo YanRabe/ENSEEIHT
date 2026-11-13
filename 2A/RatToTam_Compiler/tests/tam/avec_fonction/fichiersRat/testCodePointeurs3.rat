@@ -1,0 +1,7 @@
+main {
+   int * p = (new int);
+   (*p) = 5;
+   int * q = p;
+   (*q) = 15;
+   print (*p);
+}
