@@ -31,3 +31,6 @@
 [submodule "Subspace_Iteration_Image_Compression_Project"]
 	path = Subspace_Iteration_Image_Compression_Project
 	url = https://github.com/YanRabe/Subspace_Iteration_Image_Compression_Project.git
+[submodule "MosaicArt"]
+	path = MosaicArt
+	url = https://github.com/YanRabe/MosaicArt.git
