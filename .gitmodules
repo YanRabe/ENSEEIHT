@@ -34,3 +34,6 @@
 [submodule "MosaicArt"]
 	path = MosaicArt
 	url = https://github.com/YanRabe/MosaicArt.git
+[submodule "Compression_Techniques"]
+	path = Compression_Techniques
+	url = https://github.com/YanRabe/Compression_Techniques.git
