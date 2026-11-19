@@ -50,10 +50,6 @@
 	path = 2A/FishSchool
 	url = https://github.com/YanRabe/FishSchool.git
 
-[submodule "3A/CSI-project"]
-	path = 3A/CSI-project
-	url = https://github.com/cyrianR/CSI-project.git
-
 [submodule "2A/Robot_Arm_OpenGL_Project"]
 	path = 2A/RobotArm_OpenGL_Project
 	url = https://github.com/YanRabe/Robot_Arm_OpenGL_Project.git
