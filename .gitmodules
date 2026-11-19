@@ -1,51 +1,63 @@
 [submodule "NanoSatellite_Graph_Project"]
-	path = NanoSatellite_Graph_Project
+	path = 2A/NanoSatellite_Graph_Project
 	url = https://github.com/YanRabe/NanoSatellite_Graph_Project
+
 [submodule "RatToTam_Compiler"]
-	path = RatToTam_Compiler
+	path = 2A/RatToTam_Compiler
 	url = https://github.com/YanRabe/RatToTam_Compiler
+
 [submodule "Channel_Coding_Project"]
-	path = Channel_Coding_Project
+	path = 1A/Channel_Coding_Project
 	url = https://github.com/YanRabe/Channel_Coding_Project
-[submodule "RobotArm_OpenGL_Project"]
-	path = RobotArm_OpenGL_Project
-	url = https://github.com/YanRabe/Robot_Arm_OpenGL_Project
+
 [submodule "Dark_Channel_Prior_Dehazing_Project"]
-	path = Dark_Channel_Prior_Dehazing_Project
+	path = 2A/Dark_Channel_Prior_Dehazing_Project
 	url = https://github.com/YanRabe/Dark_Channel_Prior_Dehazing_Project
+
 [submodule "Kmeans_Meanshift_Segmentation"]
-	path = Kmeans_Meanshift_Segmentation
+	path = 2A/Kmeans_Meanshift_Segmentation
 	url = https://github.com/YanRabe/Kmeans_Meanshift_Segmentation_Comparison
+
 [submodule "MeshReconstruction_Project"]
-	path = MeshReconstruction_Project
+	path = 2A/MeshReconstruction_Project
 	url = https://github.com/YanRabe/MeshReconstruction_Project.git
+
 [submodule "Minishell_Project"]
-	path = Minishell_Project
+	path = 1A/Minishell_Project
 	url = https://github.com/YanRabe/Minishell_Project.git
+
 [submodule "Huffman_CompDecomp_Project"]
-	path = Huffman_CompDecomp_Project
+	path = 1A/Huffman_CompDecomp_Project
 	url = https://github.com/YanRabe/Huffman_CompDecomp_Project.git
+
 [submodule "OptiProblem_Resolution_Project"]
-	path = OptiProblem_Resolution_Project
+	path = 2A/OptiProblem_Resolution_Project
 	url = https://github.com/YanRabe/OptiProblem_Resolution_Project.git
+
 [submodule "Subspace_Iteration_Image_Compression_Project"]
-	path = Subspace_Iteration_Image_Compression_Project
+	path = 1A/Subspace_Iteration_Image_Compression_Project
 	url = https://github.com/YanRabe/Subspace_Iteration_Image_Compression_Project.git
+
 [submodule "MosaicArt"]
-	path = MosaicArt
+	path = 3A/MosaicArt
 	url = https://github.com/YanRabe/MosaicArt.git
+
 [submodule "Compression_Techniques"]
-	path = Compression_Techniques
+	path = 3A/Compression_Techniques
 	url = https://github.com/YanRabe/Compression_Techniques.git
+
 [submodule "FishSchool"]
-	path = FishSchool
+	path = 2A/FishSchool
 	url = https://github.com/YanRabe/FishSchool.git
+
 [submodule "3A/CSI-project"]
 	path = 3A/CSI-project
 	url = https://github.com/cyrianR/CSI-project.git
+
 [submodule "2A/Robot_Arm_OpenGL_Project"]
-	path = 2A/Robot_Arm_OpenGL_Project
+	path = 2A/RobotArm_OpenGL_Project
 	url = https://github.com/YanRabe/Robot_Arm_OpenGL_Project.git
+
 [submodule "1A/Mandelbrot_C_Project"]
 	path = 1A/Mandelbrot_C_Project
 	url = https://github.com/YanRabe/Mandelbrot_C_Project.git
