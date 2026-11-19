@@ -57,3 +57,7 @@
 [submodule "1A/Mandelbrot_C_Project"]
 	path = 1A/Mandelbrot_C_Project
 	url = https://github.com/YanRabe/Mandelbrot_C_Project.git
+	
+[submodule "3A/CSI-project"]
+	path = 3A/CSI-project
+	url = https://github.com/cyrianR/CSI-project
